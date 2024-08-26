@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0916519F2C73B010008B8D64 /* InformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0916519E2C73B010008B8D64 /* InformationView.swift */; };
+		091651A12C73B438008B8D64 /* GameBetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091651A02C73B438008B8D64 /* GameBetView.swift */; };
+		091651A32C73C13E008B8D64 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091651A22C73C13E008B8D64 /* Game.swift */; };
+		091651A52C73C256008B8D64 /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091651A42C73C256008B8D64 /* LaunchScreenView.swift */; };
+		091651A72C748313008B8D64 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091651A62C748313008B8D64 /* GameView.swift */; };
+		091651AA2C74851E008B8D64 /* win_sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 091651A82C74851E008B8D64 /* win_sound.wav */; };
+		091651AB2C74851E008B8D64 /* failure_sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 091651A92C74851E008B8D64 /* failure_sound.wav */; };
+		0918A7A02C736631004B3CB4 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0918A79F2C736631004B3CB4 /* SettingsView.swift */; };
+		0918A7CB2C7394CE004B3CB4 /* bg_music.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0918A7CA2C7394CE004B3CB4 /* bg_music.wav */; };
+		0918A7D32C73970F004B3CB4 /* click_sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0918A7D22C73970F004B3CB4 /* click_sound.wav */; };
+		0918A7D62C739AEA004B3CB4 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0918A7D52C739AEA004B3CB4 /* Enums.swift */; };
+		0918A7D82C739B36004B3CB4 /* StateData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0918A7D72C739B36004B3CB4 /* StateData.swift */; };
+		0918A7DA2C739CDB004B3CB4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0918A7D92C739CDB004B3CB4 /* HomeView.swift */; };
+		0918A7DD2C73A10D004B3CB4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0918A7DC2C73A10D004B3CB4 /* Extensions.swift */; };
+		094380892C760D7100FE2CAB /* WelcomeScreensView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094380882C760D7100FE2CAB /* WelcomeScreensView.swift */; };
+		098812F22C772ED8007F12B9 /* BalanceBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098812F12C772ED8007F12B9 /* BalanceBar.swift */; };
+		098812F62C772F87007F12B9 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098812F52C772F87007F12B9 /* GradientButton.swift */; };
+		098812F82C773188007F12B9 /* SmallGradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098812F72C773188007F12B9 /* SmallGradientButton.swift */; };
+		098812FA2C773306007F12B9 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098812F92C773306007F12B9 /* Header.swift */; };
+		098812FC2C7738D6007F12B9 /* MenuImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098812FB2C7738D6007F12B9 /* MenuImageButton.swift */; };
+		098812FE2C773F8E007F12B9 /* CurrentBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098812FD2C773F8E007F12B9 /* CurrentBank.swift */; };
+		098813002C77431D007F12B9 /* GameInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098812FF2C77431D007F12B9 /* GameInfoView.swift */; };
+		09B5DAA32C73442E0027CB60 /* CrownGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B5DAA22C73442E0027CB60 /* CrownGameApp.swift */; };
+		09B5DAA52C73442E0027CB60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B5DAA42C73442E0027CB60 /* ContentView.swift */; };
+		09B5DAA72C73442F0027CB60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09B5DAA62C73442F0027CB60 /* Assets.xcassets */; };
+		09B5DAAA2C73442F0027CB60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09B5DAA92C73442F0027CB60 /* Preview Assets.xcassets */; };
+		09B5DAB22C734AE80027CB60 /* BigShouldersStencilDisplay.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09B5DAB12C734AE80027CB60 /* BigShouldersStencilDisplay.ttf */; };
+		09BA63812C7728A500274E35 /* SoundAssistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BA63802C7728A500274E35 /* SoundAssistant.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0916519E2C73B010008B8D64 /* InformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationView.swift; sourceTree = "<group>"; };
+		091651A02C73B438008B8D64 /* GameBetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBetView.swift; sourceTree = "<group>"; };
+		091651A22C73C13E008B8D64 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		091651A42C73C256008B8D64 /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
+		091651A62C748313008B8D64 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		091651A82C74851E008B8D64 /* win_sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win_sound.wav; sourceTree = "<group>"; };
+		091651A92C74851E008B8D64 /* failure_sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = failure_sound.wav; sourceTree = "<group>"; };
+		0918A79F2C736631004B3CB4 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		0918A7CA2C7394CE004B3CB4 /* bg_music.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bg_music.wav; sourceTree = "<group>"; };
+		0918A7D22C73970F004B3CB4 /* click_sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = click_sound.wav; sourceTree = "<group>"; };
+		0918A7D52C739AEA004B3CB4 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		0918A7D72C739B36004B3CB4 /* StateData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateData.swift; sourceTree = "<group>"; };
+		0918A7D92C739CDB004B3CB4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0918A7DC2C73A10D004B3CB4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		094380882C760D7100FE2CAB /* WelcomeScreensView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreensView.swift; sourceTree = "<group>"; };
+		098812F12C772ED8007F12B9 /* BalanceBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceBar.swift; sourceTree = "<group>"; };
+		098812F52C772F87007F12B9 /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
+		098812F72C773188007F12B9 /* SmallGradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallGradientButton.swift; sourceTree = "<group>"; };
+		098812F92C773306007F12B9 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		098812FB2C7738D6007F12B9 /* MenuImageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuImageButton.swift; sourceTree = "<group>"; };
+		098812FD2C773F8E007F12B9 /* CurrentBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentBank.swift; sourceTree = "<group>"; };
+		098812FF2C77431D007F12B9 /* GameInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameInfoView.swift; sourceTree = "<group>"; };
+		09B5DA9F2C73442E0027CB60 /* CrownGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrownGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09B5DAA22C73442E0027CB60 /* CrownGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrownGameApp.swift; sourceTree = "<group>"; };
+		09B5DAA42C73442E0027CB60 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		09B5DAA62C73442F0027CB60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09B5DAA92C73442F0027CB60 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		09B5DAB12C734AE80027CB60 /* BigShouldersStencilDisplay.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BigShouldersStencilDisplay.ttf; sourceTree = "<group>"; };
+		09B5DAB32C734B1C0027CB60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		09BA63802C7728A500274E35 /* SoundAssistant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundAssistant.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09B5DA9C2C73442E0027CB60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0916519C2C73AF40008B8D64 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				09B5DAA42C73442E0027CB60 /* ContentView.swift */,
+				091651A42C73C256008B8D64 /* LaunchScreenView.swift */,
+				0918A7D92C739CDB004B3CB4 /* HomeView.swift */,
+				0918A79F2C736631004B3CB4 /* SettingsView.swift */,
+				0916519E2C73B010008B8D64 /* InformationView.swift */,
+				094380882C760D7100FE2CAB /* WelcomeScreensView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0916519D2C73AF5C008B8D64 /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				0918A7D52C739AEA004B3CB4 /* Enums.swift */,
+				0918A7DC2C73A10D004B3CB4 /* Extensions.swift */,
+				0918A7D72C739B36004B3CB4 /* StateData.swift */,
+				09BA63802C7728A500274E35 /* SoundAssistant.swift */,
+			);
+			path = Extras;
+			sourceTree = "<group>";
+		};
+		0918A7D42C73998E004B3CB4 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				091651A92C74851E008B8D64 /* failure_sound.wav */,
+				091651A82C74851E008B8D64 /* win_sound.wav */,
+				0918A7CA2C7394CE004B3CB4 /* bg_music.wav */,
+				0918A7D22C73970F004B3CB4 /* click_sound.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		098812F32C772EE0007F12B9 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				098812F92C773306007F12B9 /* Header.swift */,
+				098812F12C772ED8007F12B9 /* BalanceBar.swift */,
+				098812F52C772F87007F12B9 /* GradientButton.swift */,
+				098812FB2C7738D6007F12B9 /* MenuImageButton.swift */,
+				098812F72C773188007F12B9 /* SmallGradientButton.swift */,
+				098812FD2C773F8E007F12B9 /* CurrentBank.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		098813012C7898C7007F12B9 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				098812FF2C77431D007F12B9 /* GameInfoView.swift */,
+				091651A02C73B438008B8D64 /* GameBetView.swift */,
+				091651A22C73C13E008B8D64 /* Game.swift */,
+				091651A62C748313008B8D64 /* GameView.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		09B5DA962C73442E0027CB60 = {
+			isa = PBXGroup;
+			children = (
+				09B5DAA12C73442E0027CB60 /* CrownGame */,
+				09B5DAA02C73442E0027CB60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09B5DAA02C73442E0027CB60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09B5DA9F2C73442E0027CB60 /* CrownGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09B5DAA12C73442E0027CB60 /* CrownGame */ = {
+			isa = PBXGroup;
+			children = (
+				0918A7D42C73998E004B3CB4 /* Sounds */,
+				09B5DAB02C734AD40027CB60 /* Fonts */,
+				0916519D2C73AF5C008B8D64 /* Extras */,
+				098812F32C772EE0007F12B9 /* UI */,
+				0916519C2C73AF40008B8D64 /* Views */,
+				098813012C7898C7007F12B9 /* Game */,
+				09B5DAA22C73442E0027CB60 /* CrownGameApp.swift */,
+				09B5DAA62C73442F0027CB60 /* Assets.xcassets */,
+				09B5DAB32C734B1C0027CB60 /* Info.plist */,
+				09B5DAA82C73442F0027CB60 /* Preview Content */,
+			);
+			path = CrownGame;
+			sourceTree = "<group>";
+		};
+		09B5DAA82C73442F0027CB60 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				09B5DAA92C73442F0027CB60 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		09B5DAB02C734AD40027CB60 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				09B5DAB12C734AE80027CB60 /* BigShouldersStencilDisplay.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09B5DA9E2C73442E0027CB60 /* CrownGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09B5DAAD2C73442F0027CB60 /* Build configuration list for PBXNativeTarget "CrownGame" */;
+			buildPhases = (
+				09B5DA9B2C73442E0027CB60 /* Sources */,
+				09B5DA9C2C73442E0027CB60 /* Frameworks */,
+				09B5DA9D2C73442E0027CB60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrownGame;
+			productName = CrownGame;
+			productReference = 09B5DA9F2C73442E0027CB60 /* CrownGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09B5DA972C73442E0027CB60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					09B5DA9E2C73442E0027CB60 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 09B5DA9A2C73442E0027CB60 /* Build configuration list for PBXProject "CrownGame" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09B5DA962C73442E0027CB60;
+			productRefGroup = 09B5DAA02C73442E0027CB60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09B5DA9E2C73442E0027CB60 /* CrownGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09B5DA9D2C73442E0027CB60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09B5DAAA2C73442F0027CB60 /* Preview Assets.xcassets in Resources */,
+				0918A7CB2C7394CE004B3CB4 /* bg_music.wav in Resources */,
+				09B5DAA72C73442F0027CB60 /* Assets.xcassets in Resources */,
+				09B5DAB22C734AE80027CB60 /* BigShouldersStencilDisplay.ttf in Resources */,
+				0918A7D32C73970F004B3CB4 /* click_sound.wav in Resources */,
+				091651AA2C74851E008B8D64 /* win_sound.wav in Resources */,
+				091651AB2C74851E008B8D64 /* failure_sound.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09B5DA9B2C73442E0027CB60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0918A7A02C736631004B3CB4 /* SettingsView.swift in Sources */,
+				091651A52C73C256008B8D64 /* LaunchScreenView.swift in Sources */,
+				091651A32C73C13E008B8D64 /* Game.swift in Sources */,
+				0916519F2C73B010008B8D64 /* InformationView.swift in Sources */,
+				0918A7D82C739B36004B3CB4 /* StateData.swift in Sources */,
+				091651A12C73B438008B8D64 /* GameBetView.swift in Sources */,
+				098812F82C773188007F12B9 /* SmallGradientButton.swift in Sources */,
+				098812F22C772ED8007F12B9 /* BalanceBar.swift in Sources */,
+				098812FC2C7738D6007F12B9 /* MenuImageButton.swift in Sources */,
+				09B5DAA52C73442E0027CB60 /* ContentView.swift in Sources */,
+				0918A7DA2C739CDB004B3CB4 /* HomeView.swift in Sources */,
+				0918A7D62C739AEA004B3CB4 /* Enums.swift in Sources */,
+				09BA63812C7728A500274E35 /* SoundAssistant.swift in Sources */,
+				098813002C77431D007F12B9 /* GameInfoView.swift in Sources */,
+				09B5DAA32C73442E0027CB60 /* CrownGameApp.swift in Sources */,
+				098812FE2C773F8E007F12B9 /* CurrentBank.swift in Sources */,
+				094380892C760D7100FE2CAB /* WelcomeScreensView.swift in Sources */,
+				091651A72C748313008B8D64 /* GameView.swift in Sources */,
+				0918A7DD2C73A10D004B3CB4 /* Extensions.swift in Sources */,
+				098812FA2C773306007F12B9 /* Header.swift in Sources */,
+				098812F62C772F87007F12B9 /* GradientButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		09B5DAAB2C73442F0027CB60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		09B5DAAC2C73442F0027CB60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09B5DAAE2C73442F0027CB60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CrownGame/Preview Content\"";
+				DEVELOPMENT_TEAM = 2V46R9HSAP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CrownGame/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Crown game";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aamaev.CrownGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09B5DAAF2C73442F0027CB60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CrownGame/Preview Content\"";
+				DEVELOPMENT_TEAM = 2V46R9HSAP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CrownGame/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Crown game";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aamaev.CrownGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09B5DA9A2C73442E0027CB60 /* Build configuration list for PBXProject "CrownGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09B5DAAB2C73442F0027CB60 /* Debug */,
+				09B5DAAC2C73442F0027CB60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09B5DAAD2C73442F0027CB60 /* Build configuration list for PBXNativeTarget "CrownGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09B5DAAE2C73442F0027CB60 /* Debug */,
+				09B5DAAF2C73442F0027CB60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09B5DA972C73442E0027CB60 /* Project object */;
+}
